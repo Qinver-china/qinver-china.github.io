@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" name="viewport"
+		content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+	<meta name='apple-mobile-web-app-capable' content='yes'>
+	<meta name='mobile-web-app-capable' content='yes'>
+	<title>Wordpress主题_WP模板_Wordpress教程_WP主题下载_Zibll子比主题</title>
+	<meta name="keywords"
+		content="zibll,zibll主题,子比主题,wordpress主题下载,wordpress主题,wordpress商城主题,wordpress模板,wordpress博客主题,wordpress中文主题,wordpress企业主题,wordpress汉化主题,wordpress cms主题,wordpress教程,wordpress">
+	<meta name="description"
+		content="zibll子比主题专为个人、企业的WordPress主题美化设计开发，wp主题采用简约优雅的设计风格搭配强大的商城功能以及易用的模块化配置，成为更加适合中文wordpress商城主题模板、wordpress企业主题模板、wordpress博客主题模板。">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="apple-touch-icon-precomposed" href="img/icon.png">
+	<style type="text/css">
+		html,
+		body {
+			padding: 0;
+			margin: 0;
+			background-color: #373740;
+			color: #e5eef7;
+			line-height: 1.4;
+		}
+
+		body {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+		main {
+			max-width: 1160px;
+			margin: auto;
+			padding: 20px;
+			width: 80%;
+		}
+
+		fixed {
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			height: 100%;
+			background: #0000;
+			left: 0;
+			right: 0;
+			z-index: -1;
+		}
+
+		#wrapper,
+		.container {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+		}
+
+		.col {
+			width: 50%;
+		}
+
+		.info .text-1 {
+			font-size: 100px;
+			font-weight: 700;
+			color: #f4ffa5;
+			text-transform: uppercase;
+			margin-bottom: 40px;
+		}
+
+		.info .text-2 {
+			font-size: 35px;
+			font-weight: 500;
+			line-height: 48px;
+			color: #f7a863;
+			margin-bottom: 20px;
+		}
+
+		.info .text-3 {
+			font-weight: 300;
+			color: #997b60;
+			margin-bottom: 20px;
+		}
+
+		.btn {
+			display: inline-block;
+			border-radius: 4px;
+			transition: .15s;
+			font-weight: 300;
+			padding: 8px 25px;
+			box-shadow: none;
+			text-shadow: 0 0 0;
+			line-height: 1.44;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+			font-size: 16px;
+			outline: none !important;
+			text-align: center;
+			color: #fff;
+			cursor: pointer;
+			border: none;
+			background: linear-gradient(135deg, #ec8c5d 10%, #d55436 100%);
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+
+		.guardian {
+			text-align: center;
+		}
+
+		.guardian img {
+			width: 100%;
+			height: auto;
+			max-width: 420px;
+		}
+
+		header {
+			background: #3d3d46;
+
+		}
+
+		header main {
+			margin-bottom: 20px;
+		}
+
+		.header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.logo {
+			height: 42px;
+		}
+
+		.logo img {
+			height: 100%;
+		}
+
+		.desc-1 {
+			font-weight: 700;
+		}
+
+		.desc-2 {
+			font-size: 14px;
+			font-weight: 300;
+			color: #bdbdbd;
+		}
+
+		.text-1,
+		.text-3,
+		.text-2,
+		.btn,
+		.guardian {
+			opacity: 0;
+			transition: 1s;
+			transform: translateY(50px);
+			transition-timing-function: cubic-bezier(.22,.61,.36,1);
+		}
+
+		.show .text-1,
+		.show .text-3,
+		.show .text-2,
+		.show .btn,
+		.show .guardian {
+			opacity: 1;
+			transform: unset;
+		}
+
+		.text-2 {
+			transition-delay: .2s;
+		}
+
+		.text-3 {
+			transition-delay: .4s;
+		}
+
+		.btn {
+			transition-delay: .6s;
+		}
+
+		.guardian {
+			transition-delay: .9s;
+
+		}
+
+
+		@media (max-width:768px) {
+			.container {
+				flex-wrap: wrap;
+			}
+
+			.col {
+				width: unset;
+			}
+
+			.col+.col {
+				margin-top: 60px;
+			}
+
+			.info .text-1 {
+				font-size: 80px;
+				margin-bottom: 30px;
+			}
+
+			.info .text-2 {
+				font-size: 28px;
+			}
+
+			header main {
+
+				padding: 15px 0;
+				width: 90%;
+			}
+
+			.logo {
+				height: 35px;
+			}
+
+			.desc-1 {
+				font-size: 20px;
+			}
+
+			.desc-2 {
+				display: none;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<fixed id="fixed"></fixed>
+	<header>
+		<main>
+			<div class="header">
+				<div class="logo">
+					<img src="img/logo.svg" alt="LOGO">
+				</div>
+				<div class="logo-desc">
+					<div class="desc-1">
+						子比主题
+					</div>
+					<div class="desc-2">
+						更优雅的WordPress主题
+					</div>
+				</div>
+
+			</div>
+		</main>
+	</header>
+	<main>
+		<div id="wrapper">
+			<div class="container">
+				<div class="col">
+					<div class="info">
+						<div class="text-1">哎呀!</div>
+						<div class="text-2">服务器又被攻击了！</div>
+						<div class="text-3">我们正在努力修复，如您需要咨询、购买子比主题，欢迎与客服联系.</div>
+
+						<a href="http://wpa.qq.com/msgrd?v=3&uin=770349780&site=qq&menu=yes" class="btn">联系客服
+							QQ:770349780</a>
+					</div>
+				</div>
+				<div class="col">
+					<div class="guardian">
+						<img src="img/guardian.gif" alt="Fighting">
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- 底部版权区域 -->
+	<footer class="">
+
+	</footer>
+
+	<script>
+		var wrapper = document.getElementById("wrapper");
+		var fixed = document.getElementById("fixed");
+		var hh = fixed.clientHeight;
+		wrapper.classList.add("show");
+		wrapper.style.minHeight = hh * 0.9 - 200 + 'px';
+	</script>
+</body>
+
+
+</html>
